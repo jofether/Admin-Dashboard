@@ -1,3 +1,4 @@
+// synthetic-repo-02/src/App.js
 import React from 'react';
 
 function App() {
