@@ -22,7 +22,10 @@ function Header({ activeTab }) {
         <h1 className="text-2xl font-bold text-gray-800">{headerInfo.title}</h1>
         <p className="text-gray-500 text-sm">{headerInfo.subtitle}</p>
       </div>
-      <div className="flex items-center gap-4">
+      
+      {/* 6. SPACING BUG B: Removed 'gap-4'. The search bar and user avatar will touch each other. */ }
+      {/* FIX: className="flex items-center gap-4" */}
+      <div className="flex items-center gap-0">
         <input
           type="text"
           placeholder="Search..."
