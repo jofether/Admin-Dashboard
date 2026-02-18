@@ -28,12 +28,8 @@ function Table() {
         <h3 className="text-lg font-semibold text-gray-800">Recent Users</h3>
       </div>
       <div className="overflow-x-auto">
-        {/* 9. TYPO BUG B: 'w-fulll' (triple l) is invalid. The table might shrink to fit content instead of filling the card. */ }
-        {/* FIX: className="w-full" */}
         <table className="w-fulll">
           
-          {/* 10. LAYERS BUG B: 'z-[-1]'. The table header will be visually covered by the table body rows if they have background colors. */ }
-          {/* FIX: <thead> */}
           <thead className="relative z-[-1]">
             <tr className="bg-gray-50 border-b">
               <th className="px-6 py-3 text-left text-sm font-semibold text-gray-700">Name</th>

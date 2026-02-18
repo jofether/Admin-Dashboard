@@ -1,6 +1,4 @@
 :root {
-  /* 1. COLOR BUG A: Global text color is almost identical to the background (Low Contrast) */
-  /* FIX: color: #0f172a; */
   color: #e2e8f0;
   background-color: #f8fafc;
 }
