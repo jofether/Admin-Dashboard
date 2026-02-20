@@ -1,0 +1,155 @@
+{
+  "repository": "Admin Dashboard",
+  "bugs": [
+    {
+      "bug_category": "Layout",
+      "bug_type": "display",
+      "file_modified": "src/App.jsx",
+      "line_number": 36,
+      "clean_code": "<div className=\"flex h-screen bg-gray-50\">",
+      "buggy_code": "<div className=\"block h-screen bg-gray-50\">",
+      "css_selector": ".flex.h-screen",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "padding",
+      "file_modified": "src/App.jsx",
+      "line_number": 42,
+      "clean_code": "<main className=\"flex-1 overflow-x-hidden overflow-y-auto p-6\">",
+      "buggy_code": "<main className=\"flex-1 overflow-x-hidden overflow-y-auto\">",
+      "css_selector": ".flex-1.overflow-x-hidden",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Spacing",
+      "bug_type": "gap",
+      "file_modified": "src/components/Header.jsx",
+      "line_number": 26,
+      "clean_code": "<div className=\"flex items-center gap-4\">",
+      "buggy_code": "<div className=\"flex items-center gap-0\">",
+      "css_selector": ".flex.items-center",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "z-index",
+      "file_modified": "src/components/Sidebar.jsx",
+      "line_number": 15,
+      "clean_code": "<aside className=\"w-64 bg-slate-800 text-white flex flex-col\">",
+      "buggy_code": "<aside className=\"w-64 bg-slate-800 text-white flex flex-col z-[-10] relative\">",
+      "css_selector": ".w-64.bg-slate-800",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Typo",
+      "bug_type": "hover",
+      "file_modified": "src/components/Sidebar.jsx",
+      "line_number": 27,
+      "clean_code": ": 'hover:bg-slate-700 text-gray-200'",
+      "buggy_code": ": 'hoover:bg-slate-700 text-gray-200'",
+      "css_selector": ".hover\\:bg-slate-700",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layout",
+      "bug_type": "flexbox",
+      "file_modified": "src/components/StatCard.jsx",
+      "line_number": 8,
+      "clean_code": "<div className=\"flex justify-between items-start mb-4\">",
+      "buggy_code": "<div className=\"block items-start mb-4\">",
+      "css_selector": ".flex.justify-between",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "text-color",
+      "file_modified": "src/components/StatCard.jsx",
+      "line_number": 16,
+      "clean_code": "<div className={`text-sm font-medium mt-2 ${isPositive ? 'text-green-600' : 'text-red-600'}`}>",
+      "buggy_code": "<div className={`text-sm font-medium mt-2 ${isPositive ? 'text-red-600' : 'text-green-600'}`}>",
+      "css_selector": ".text-green-600",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Typo",
+      "bug_type": "width",
+      "file_modified": "src/components/Table.jsx",
+      "line_number": 31,
+      "clean_code": "<table className=\"w-full\">",
+      "buggy_code": "<table className=\"w-fulll\">",
+      "css_selector": ".w-full",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Layers",
+      "bug_type": "z-index",
+      "file_modified": "src/components/Table.jsx",
+      "line_number": 33,
+      "clean_code": "<thead>",
+      "buggy_code": "<thead className=\"relative z-[-1]\">",
+      "css_selector": ".z-[-1]",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "bug_category": "Color",
+      "bug_type": "color",
+      "file_modified": "src/index.css",
+      "line_number": 2,
+      "clean_code": "  color: #0f172a;",
+      "buggy_code": "  color: #e2e8f0;",
+      "css_selector": ":root",
+      "bounding_box": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ]
+}
