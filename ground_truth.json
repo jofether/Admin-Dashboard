@@ -2,6 +2,7 @@
   "repository": "Admin Dashboard",
   "bugs": [
     {
+      "comment": "Bug #1 - display",
       "bug_category": "Layout",
       "bug_type": "display",
       "file_modified": "src/App.jsx",
@@ -12,11 +13,12 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     },
     {
+      "comment": "Bug #2 - padding",
       "bug_category": "Spacing",
       "bug_type": "padding",
       "file_modified": "src/App.jsx",
@@ -25,13 +27,14 @@
       "buggy_code": "<main className=\"flex-1 overflow-x-hidden overflow-y-auto\">",
       "css_selector": ".flex-1.overflow-x-hidden",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 16,
+        "y": 638,
+        "width": 1280,
+        "height": 82
       }
     },
     {
+      "comment": "Bug #3 - gap",
       "bug_category": "Spacing",
       "bug_type": "gap",
       "file_modified": "src/components/Header.jsx",
@@ -39,14 +42,10 @@
       "clean_code": "<div className=\"flex items-center gap-4\">",
       "buggy_code": "<div className=\"flex items-center gap-0\">",
       "css_selector": ".flex.items-center",
-      "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
-      }
+      "bounding_box": { "x": 0, "y": 538, "width": 1280, "height": 101 }
     },
     {
+      "comment": "Bug #4 - z-index",
       "bug_category": "Layers",
       "bug_type": "z-index",
       "file_modified": "src/components/Sidebar.jsx",
@@ -62,6 +61,7 @@
       }
     },
     {
+      "comment": "Bug #5 - hover",
       "bug_category": "Typo",
       "bug_type": "hover",
       "file_modified": "src/components/Sidebar.jsx",
@@ -77,6 +77,7 @@
       }
     },
     {
+      "comment": "Bug #6 - flexbox",
       "bug_category": "Layout",
       "bug_type": "flexbox",
       "file_modified": "src/components/StatCard.jsx",
@@ -84,14 +85,10 @@
       "clean_code": "<div className=\"flex justify-between items-start mb-4\">",
       "buggy_code": "<div className=\"block items-start mb-4\">",
       "css_selector": ".flex.justify-between",
-      "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
-      }
+      "bounding_box": { "x": 16, "y": 638, "width": 305, "height": 82 }
     },
     {
+      "comment": "Bug #7 - text-color",
       "bug_category": "Color",
       "bug_type": "text-color",
       "file_modified": "src/components/StatCard.jsx",
@@ -107,6 +104,7 @@
       }
     },
     {
+      "comment": "Bug #8 - width",
       "bug_category": "Typo",
       "bug_type": "width",
       "file_modified": "src/components/Table.jsx",
@@ -122,6 +120,7 @@
       }
     },
     {
+      "comment": "Bug #9 - z-index",
       "bug_category": "Layers",
       "bug_type": "z-index",
       "file_modified": "src/components/Table.jsx",
@@ -137,6 +136,7 @@
       }
     },
     {
+      "comment": "Bug #10 - color",
       "bug_category": "Color",
       "bug_type": "color",
       "file_modified": "src/index.css",
@@ -147,8 +147,8 @@
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 1280,
+        "height": 720
       }
     }
   ]
