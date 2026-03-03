@@ -9,7 +9,7 @@
       "line_number": 36,
       "clean_code": "<div className=\"flex h-screen bg-gray-50\">",
       "buggy_code": "<div className=\"block h-screen bg-gray-50\">",
-      "css_selector": ".flex.h-screen",
+      "css_selector": ".h-screen.bg-gray-50",
       "bounding_box": {
         "x": 0,
         "y": 0,
@@ -25,12 +25,12 @@
       "line_number": 42,
       "clean_code": "<main className=\"flex-1 overflow-x-hidden overflow-y-auto p-6\">",
       "buggy_code": "<main className=\"flex-1 overflow-x-hidden overflow-y-auto\">",
-      "css_selector": ".flex-1.overflow-x-hidden",
+      "css_selector": "main",
       "bounding_box": {
-        "x": 16,
-        "y": 638,
-        "width": 1280,
-        "height": 82
+        "x": 256,
+        "y": 64,
+        "width": 1024,
+        "height": 656
       }
     },
     {
@@ -41,8 +41,8 @@
       "line_number": 26,
       "clean_code": "<div className=\"flex items-center gap-4\">",
       "buggy_code": "<div className=\"flex items-center gap-0\">",
-      "css_selector": ".flex.items-center",
-      "bounding_box": { "x": 0, "y": 538, "width": 1280, "height": 101 }
+      "css_selector": "header .flex.items-center",
+      "bounding_box": { "x": 256, "y": 0, "width": 1024, "height": 64 }
     },
     {
       "comment": "Bug #4 - z-index",
@@ -52,12 +52,12 @@
       "line_number": 15,
       "clean_code": "<aside className=\"w-64 bg-slate-800 text-white flex flex-col\">",
       "buggy_code": "<aside className=\"w-64 bg-slate-800 text-white flex flex-col z-[-10] relative\">",
-      "css_selector": ".w-64.bg-slate-800",
+      "css_selector": "aside",
       "bounding_box": {
         "x": 0,
         "y": 0,
-        "width": 0,
-        "height": 0
+        "width": 256,
+        "height": 720
       }
     },
     {
@@ -68,12 +68,12 @@
       "line_number": 27,
       "clean_code": ": 'hover:bg-slate-700 text-gray-200'",
       "buggy_code": ": 'hoover:bg-slate-700 text-gray-200'",
-      "css_selector": ".hover\\:bg-slate-700",
+      "css_selector": "nav button.text-gray-200",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 16,
+        "y": 100,
+        "width": 224,
+        "height": 48
       }
     },
     {
@@ -84,8 +84,8 @@
       "line_number": 8,
       "clean_code": "<div className=\"flex justify-between items-start mb-4\">",
       "buggy_code": "<div className=\"block items-start mb-4\">",
-      "css_selector": ".flex.justify-between",
-      "bounding_box": { "x": 16, "y": 638, "width": 305, "height": 82 }
+      "css_selector": "main .items-start.mb-4",
+      "bounding_box": { "x": 300, "y": 100, "width": 300, "height": 120 }
     },
     {
       "comment": "Bug #7 - text-color",
@@ -95,12 +95,12 @@
       "line_number": 16,
       "clean_code": "<div className={`text-sm font-medium mt-2 ${isPositive ? 'text-green-600' : 'text-red-600'}`}>",
       "buggy_code": "<div className={`text-sm font-medium mt-2 ${isPositive ? 'text-red-600' : 'text-green-600'}`}>",
-      "css_selector": ".text-green-600",
+      "css_selector": "main .text-sm.font-medium.mt-2",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 300,
+        "y": 150,
+        "width": 200,
+        "height": 40
       }
     },
     {
@@ -111,12 +111,12 @@
       "line_number": 31,
       "clean_code": "<table className=\"w-full\">",
       "buggy_code": "<table className=\"w-fulll\">",
-      "css_selector": ".w-full",
+      "css_selector": "table",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 300,
+        "y": 300,
+        "width": 900,
+        "height": 350
       }
     },
     {
@@ -127,12 +127,12 @@
       "line_number": 33,
       "clean_code": "<thead>",
       "buggy_code": "<thead className=\"relative z-[-1]\">",
-      "css_selector": ".z-[-1]",
+      "css_selector": "table thead",
       "bounding_box": {
-        "x": 0,
-        "y": 0,
-        "width": 0,
-        "height": 0
+        "x": 300,
+        "y": 300,
+        "width": 900,
+        "height": 50
       }
     },
     {
@@ -143,7 +143,7 @@
       "line_number": 2,
       "clean_code": "  color: #0f172a;",
       "buggy_code": "  color: #e2e8f0;",
-      "css_selector": ":root",
+      "css_selector": "body",
       "bounding_box": {
         "x": 0,
         "y": 0,
