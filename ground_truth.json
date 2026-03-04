@@ -125,7 +125,7 @@
       "bug_type": "z-index",
       "file_modified": "src/components/Table.jsx",
       "line_number": 33,
-      "clean_code": "<thead>",
+      "clean_code": "<thead>", 
       "buggy_code": "<thead className=\"relative z-[-1]\">",
       "css_selector": "div.bg-white.rounded-lg table thead",
       "bounding_box": {
