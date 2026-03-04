@@ -9,7 +9,7 @@
       "line_number": 36,
       "clean_code": "<div className=\"flex h-screen bg-gray-50\">",
       "buggy_code": "<div className=\"block h-screen bg-gray-50\">",
-      "css_selector": ".h-screen.bg-gray-50",
+      "css_selector": "div.block.h-screen.bg-gray-50",
       "bounding_box": {
         "x": 0,
         "y": 0,
@@ -25,7 +25,7 @@
       "line_number": 42,
       "clean_code": "<main className=\"flex-1 overflow-x-hidden overflow-y-auto p-6\">",
       "buggy_code": "<main className=\"flex-1 overflow-x-hidden overflow-y-auto\">",
-      "css_selector": "main",
+      "css_selector": "main.flex-1.overflow-x-hidden.overflow-y-auto",
       "bounding_box": {
         "x": 256,
         "y": 64,
@@ -52,7 +52,7 @@
       "line_number": 15,
       "clean_code": "<aside className=\"w-64 bg-slate-800 text-white flex flex-col\">",
       "buggy_code": "<aside className=\"w-64 bg-slate-800 text-white flex flex-col z-[-10] relative\">",
-      "css_selector": "aside",
+      "css_selector": "aside.w-64.bg-slate-800.flex.flex-col",
       "bounding_box": {
         "x": 0,
         "y": 0,
@@ -68,7 +68,7 @@
       "line_number": 27,
       "clean_code": ": 'hover:bg-slate-700 text-gray-200'",
       "buggy_code": ": 'hoover:bg-slate-700 text-gray-200'",
-      "css_selector": "nav button.text-gray-200",
+      "css_selector": "nav button.block.py-2\\.5.px-4.text-gray-200",
       "bounding_box": {
         "x": 16,
         "y": 100,
@@ -84,7 +84,7 @@
       "line_number": 8,
       "clean_code": "<div className=\"flex justify-between items-start mb-4\">",
       "buggy_code": "<div className=\"block items-start mb-4\">",
-      "css_selector": "main .items-start.mb-4",
+      "css_selector": "div.bg-white.p-6.rounded-lg div.block.items-start.mb-4",
       "bounding_box": { "x": 300, "y": 100, "width": 300, "height": 120 }
     },
     {
@@ -95,7 +95,7 @@
       "line_number": 16,
       "clean_code": "<div className={`text-sm font-medium mt-2 ${isPositive ? 'text-green-600' : 'text-red-600'}`}>",
       "buggy_code": "<div className={`text-sm font-medium mt-2 ${isPositive ? 'text-red-600' : 'text-green-600'}`}>",
-      "css_selector": "main .text-sm.font-medium.mt-2",
+      "css_selector": "div.bg-white.p-6.rounded-lg div.text-sm.font-medium.mt-2",
       "bounding_box": {
         "x": 300,
         "y": 150,
@@ -111,7 +111,7 @@
       "line_number": 31,
       "clean_code": "<table className=\"w-full\">",
       "buggy_code": "<table className=\"w-fulll\">",
-      "css_selector": "table",
+      "css_selector": "table.w-fulll",
       "bounding_box": {
         "x": 300,
         "y": 300,
@@ -143,7 +143,7 @@
       "line_number": 2,
       "clean_code": "  color: #0f172a;",
       "buggy_code": "  color: #e2e8f0;",
-      "css_selector": "body",
+      "css_selector": ":root",
       "bounding_box": {
         "x": 0,
         "y": 0,
